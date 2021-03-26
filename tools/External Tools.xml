@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="Black Format" description="Black Format" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/miniconda3/bin/black" />
+      <option name="PARAMETERS" value="-S  ." />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
